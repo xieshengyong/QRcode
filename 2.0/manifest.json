@@ -1,0 +1,17 @@
+{
+   "background": "background.html",
+   "browser_action": {
+      "default_icon": "logo.png",
+      "default_popup": "popup.html"
+   },
+   "description": "生成当前页面二维码",
+   "icons": {
+      "128": "logo_128.png",
+      "16": "logo_16.png",
+      "48": "logo_48.png"
+   },
+   "manifest_version": 2,
+   "name": "二维码生成器",
+   "permissions": [ "contextMenus", "tabs", "http://*/*", "http://*/*/*" ],
+   "version": "2.1"
+}
